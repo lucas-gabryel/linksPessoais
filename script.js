@@ -1,0 +1,23 @@
+function toggleMode() {
+ const html = document.documentElement
+
+ /*if (html.classList.contains('light')) {
+  html.classList.remove('light')
+  }
+  else {
+  html.classList.add('light')
+  }*/
+
+  html.classList.toggle('light')
+
+  const img = document.querySelector('#profile img')
+
+  if (html.classList.contains('light')) {
+    img.setAttribute("src", "./assets/assets/avatar-light.png")
+    img.setAttribute('alt', 'avater com fundo etc.')
+  }
+  else {
+    img.setAttribute('src', './assets/assets/avatar.png')
+    img.setAttribute('alt', 'mike com cor do fundo amarelo')
+  }
+}
