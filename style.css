@@ -40,7 +40,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto; /* referente a largura, vai centralizar essa caixa "container" somente na largura. Também existe as tags margin-left e margin-right para centralizar individualmente */
   margin-top: 56px;
   padding: 0 24px;
@@ -152,6 +153,7 @@ ul li a:hover {
 }
 
 footer {
+  font-size: 16px;
   padding: 24px 0;
   text-align: center;
 }
