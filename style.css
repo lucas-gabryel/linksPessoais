@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/assets/bg-mobile.jpg);
+  --bg-url: rgb(2,0,36), linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   --strock-color: rgba(255, 255, 255, 0.5);
   --backgroud-buttons: rgba(255, 255, 255, 0.1);
   --backgroud-buttons-hover: rgba(255, 255, 255, 0.1);
